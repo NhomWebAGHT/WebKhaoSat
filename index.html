@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Search DEmo</title>
+	<link rel="stylesheet" type="text/css"  href="./css/style.css"/>
+	<script type="text/javascript" src="./js/function.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="header-fix">
+				<a href="#"><img src="./css/images/logo.png" alt=""></a>
+				<div class="header-right">
+					<ul class="header-list">
+						<li><a href="" class="header-a1">Đăng nhập</a></li>
+						<li><a href="" class="header-a2">Đăng ký</a></li>
+					</ul>		
+				</div>
+			</div>
+			<div class="menu">
+				<div class="menu-box" id="menu-box">
+					<ul class="menu-list">
+						<li class="list-k"><a href="#" class="menu-a">Trang chủ</a></li>
+						<li class="list-k"><a href="#" class="menu-a">Giới thiệu</a></li>
+						<li class="list-k"> <a href="#" class="menu-a">Điểm thưởng/Quà tặng</a></li>
+						<li class="list-k"><a href="#" class="menu-a">Hoạt động</a>
+							<ul class="sub-menu">
+								<li><a href="#" class="menu-aa">Đấu giá ring quà</a></li>
+								<li><a href="#" class="menu-aa">Quỹ về ánh mắt trẻ thơ</a></li>
+								<li><a href="#" class="menu-aa">Khảo sát nhanh</a></li>
+								<li><a href="#" class="menu-aa">Thành viên nói gì về VNR</a></li>
+								<li><a href="#" class="menu-aa">Vua khảo sát</a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="menu-a">Báo cáo nghiên cứu</a></li>
+						<li><a href="#" class="menu-a">Hỏi đáp</a></li>
+						<li><a href="#" class="menu-a">Liên hệ</a></li>
+					</ul>
+					<p class="search-btn"><a/ href="#" onclick="hideMenu()"><img src="./css/images/search_icon.png"/></a></p>
+				</div>
+				<div id="search-box" style="display:none">
+					<ul>
+						<li class="search-input">
+							<form >
+								<input name="txtSearch" class="txt-input" type="text" placeholder="Nhập từ khóa " > 
+							</form>
+						</li>
+						
+						<li class="img-close"><img src="./css/images/close_btn02.png" onclick="showMenu()"/></li>
+					<ul>
+				</div>	
+			</div>
+		</div>
+		<div class="content-all">
+			<div class="banner">
+				<a href="#" class="banner-a"><img src="./css/images/App.png" style="max-width:100%"/></a>
+			</div>
+			<div class="content-box">
+				<div class="box-list">
+					<h3 class="box-h3"><span>LÀM KHẢO SÁT NHẬN NGAY DIỂM THƯỞNG</span></h3>
+					<ul class="box-ul">
+						<li class="box-li">
+							<a href="#" class="box-a">
+								<span class="box-header"><img src="./css/images/icon_01.gif"/>ĐĂNG KÝ</span>
+								<span class="box-text">Quá trình đăng ký diễn ra nhanh chóng, nhận ngay 40 điểm sau khi kích hoạt tài khoản và hoàn tất thông tin đăng ký</span>
+								<span class="box-text1"><span>ĐĂNG KÝ MIỄN PHÍ</span></span>
+							</a>	
+						</li>
+						<li class="box-li">
+							<a href="#" class="box-a">
+								<span class="box-header"><img src="./css/images/icon_02.gif"/>LÀM KHẢO SÁT</span>
+								<span class="box-text">Chúng tôi sẽ gửi những khảo sát thích hợp với bạn thông qua Email đăng ký hoặc trang cá nhân của bạn. Nhận được điểm thưởng sau khi hoàn thành các khảo sát của chúng tôi</span>
+								<span class="box-text1"><span>XEM DANH SÁCH KHẢO SÁT</span></span>
+							</a>	
+						</li>
+						<li class="box-li">
+							<a href="#" class="box-a">
+								<span class="box-header"><img src="./css/images/icon_03.gif"/>GIỚI THIỆU BẠN</span>
+								<span class="box-text">Hãy mời bạn bè tham gia cộng đồng khảo sát trực tuyến Vinaresearch để nhận ngay điểm thưởng</span>
+								<span class="box-text1"><span>MẸO GIỚI THIỆU BẠN</span></span>
+							</a>	
+						</li>
+						<li class="box-li">
+							<a href="#" class="box-a">
+								<span class="box-header"><img src="./css/images/icon_04.gif"/>NHẬN THƯỞNG</span>
+								<span class="box-text">Quá trình đổi thưởng diễn ra nhanh chóng, bạn  có thể chọn để nhận thẻ cào hoặc chuyển khoản qua Ngân Lượng</span>
+								<span class="box-text1"><span>ĐẾN TRANG ĐỔI THƯỞNG</span></span>
+							</a>	
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="home-block">
+			<!--KHAO SAT-->
+				<div class="khaosat-all">
+					<h2 class="h2-title"><img src="./css/images/icon_05.gif"/><span>DANH MỤC KHẢO SÁT</span></h2>
+					<div class="block-inner">
+						<div class="khaosat-item">
+								<p class="item-header"><span>02-03-2018<span></p>
+							<div class="khaosat-fix">
+								<p class="fix-content1">Khảo sát về cuộc sống SH3324</p>
+								<p class="fix-content2"><span class="fix-span">9</span><span>Điểm</span></p>
+							</div>
+								<ul class="button-list">
+									<li>
+									<a href="#" class="button-fix"><span>Đăng ký</span></a>
+									</li>
+								</ul>	
+						</div>
+						<!---->
+						<div class="khaosat-item">
+								<p class="item-header"><span>02-03-2018<span></p>
+							<div class="khaosat-fix">
+								<p class="fix-content1">Khảo sát về cuộc sống SH3324</p>
+								<p class="fix-content2"><span class="fix-span">9</span><span>Điểm</span></p>
+							</div>
+								<ul class="button-list">
+									<li>
+									<a href="#" class="button-fix"><span>Đăng ký</span></a>
+									</li>
+								</ul>	
+						</div>
+						<!---->
+						<div class="khaosat-item">
+								<p class="item-header"><span>02-03-2018<span></p>
+							<div class="khaosat-fix">
+								<p class="fix-content1">Khảo sát về cuộc sống SH3324</p>
+								<p class="fix-content2"><span class="fix-span">9</span><span>Điểm</span></p>
+							</div>
+								<ul class="button-list">
+									<li>
+									<a href="#" class="button-fix"><span>Đăng ký</span></a>
+									</li>
+								</ul>	
+						</div>
+						<!---->
+						<div class="khaosat-item">
+								<p class="item-header"><span>02-03-2018<span></p>
+							<div class="khaosat-fix">
+								<p class="fix-content1">Khảo sát về cuộc sống SH3324</p>
+								<p class="fix-content2"><span class="fix-span">9</span><span>Điểm</span></p>
+							</div>
+								<ul class="button-list">
+									<li>
+									<a href="#" class="button-fix"><span>Đăng ký</span></a>
+									</li>
+								</ul>	
+						</div>
+						<!---->
+						<div class="khaosat-item">
+								<p class="item-header"><span>02-03-2018<span></p>
+							<div class="khaosat-fix">
+								<p class="fix-content1">Khảo sát về cuộc sống SH3324</p>
+								<p class="fix-content2"><span class="fix-span">9</span><span>Điểm</span></p>
+							</div>
+								<ul class="button-list">
+									<li>
+									<a href="#" class="button-fix"><span>Đăng ký</span></a>
+									</li>
+								</ul>	
+						</div>
+						<!---->
+							<p class="item-bot"><a href="#"><span>Xem tất cả</span></a></p>
+						<!---->
+					</div>
+				</div>
+			<!--END-->	
+			
+			<!--CAU HOI-->
+				<div class="cauhoi-all">
+					<h2 class="h2-title"><img src="./css/images/icon_06.gif"/><span>CÂU HỎI NHANH</span></h2>
+					<div class="block-inner">
+						<div class="cauhoi-item">
+							<ul class="item-profile">
+								<li><span class="name"><img src="./css/images/icon_09.gif"/>hohoangl...</span>
+									<p class="profile-show">hohoangluong</p>
+								</li>
+								<li><span class="time><img src="./css/images/icon_10.gif"/>27-02-2018 - 06-03-2018</span></li>
+								<li><span class="answer"><img src="./css/images/icon_11.gif"/>399 trả lời</span>
+									<p class="profile-show">399 trả lời</p>
+								</li>
+								<li>
+									<span class="subject"><img src="./css/images/icon_12.gif"/>
+										<a href="#">Cuộc sống</a>
+									</span>
+									<p class="profile-show">Cuộc sống</p>
+								</li>
+							</ul>
+							<p class="item-con">Mức độ đồng tình của bạn về xu hướng mặc áo dài cách tân vào dịp Tết ngày càng tăng?</p>
+							<ul class="button-list">
+								<li><a href="#" class="button-fix"> Bình chọn</a></li>
+								<li><a href="#" class="button-fix1">Kết quả</a></li>
+							</ul>
+							<p class="icon_07"><span><img src="./css/images/icon_07.gif" />Đang mở</span></p>
+						</div>
+						<div class="cauhoi-item">
+							<ul class="item-profile">
+								<li><span class="name"><img src="./css/images/icon_09.gif"/>hohoangl...</span>
+									<p class="profile-show">hohoangluong</p>
+								</li>
+								<li><span class="time><img src="./css/images/icon_10.gif"/>27-02-2018 - 06-03-2018</span></li>
+								<li><span class="answer"><img src="./css/images/icon_11.gif"/>399 trả lời</span>
+									<p class="profile-show">399 trả lời</p>
+								</li>
+								<li>
+									<span class="subject"><img src="./css/images/icon_12.gif"/>
+										<a href="#">Cuộc sống</a>
+									</span>
+									<p class="profile-show">Cuộc sống</p>
+								</li>
+							</ul>
+							<p class="item-con">Mức độ đồng tình của bạn về xu hướng mặc áo dài cách tân vào dịp Tết ngày càng tăng?</p>
+							<ul class="button-list">
+								<li><a href="#" class="button-fix"> Bình chọn</a></li>
+								<li><a href="#" class="button-fix1">Kết quả</a></li>
+							</ul>
+							<p class="icon_07"><span><img src="./css/images/icon_07.gif" />Đang mở</span></p>
+						</div>
+						<div class="cauhoi-item">
+							<ul class="item-profile">
+								<li><span class="name"><img src="./css/images/icon_09.gif"/>hohoangl...</span>
+									<p class="profile-show">hohoangluong</p>
+								</li>
+								<li><span class="time><img src="./css/images/icon_10.gif"/>27-02-2018 - 06-03-2018</span></li>
+								<li><span class="answer"><img src="./css/images/icon_11.gif"/>399 trả lời</span>
+									<p class="profile-show">399 trả lời</p>
+								</li>
+								<li>
+									<span class="subject"><img src="./css/images/icon_12.gif"/>
+										<a href="#">Cuộc sống</a>
+									</span>
+									<p class="profile-show">Cuộc sống</p>
+								</li>
+							</ul>
+							<p class="item-con">Mức độ đồng tình của bạn về xu hướng mặc áo dài cách tân vào dịp Tết ngày càng tăng?</p>
+							<ul class="button-list">
+								<li><a href="#" class="button-fix"> Bình chọn</a></li>
+								<li><a href="#" class="button-fix1">Kết quả</a></li>
+							</ul>
+							<p class="icon_07"><span><img src="./css/images/icon_07.gif" />Đang mở</span></p>
+						</div>
+						<div class="cauhoi-item">
+							<ul class="item-profile">
+								<li><span class="name"><img src="./css/images/icon_09.gif"/>hohoangl...</span>
+									<p class="profile-show">hohoangluong</p>
+								</li>
+								<li><span class="time><img src="./css/images/icon_10.gif"/>27-02-2018 - 06-03-2018</span></li>
+								<li><span class="answer"><img src="./css/images/icon_11.gif"/>399 trả lời</span>
+									<p class="profile-show">399 trả lời</p>
+								</li>
+								<li>
+									<span class="subject"><img src="./css/images/icon_12.gif"/>
+										<a href="#">Cuộc sống</a>
+									</span>
+									<p class="profile-show">Cuộc sống</p>
+								</li>
+							</ul>
+							<p class="item-con">Mức độ đồng tình của bạn về xu hướng mặc áo dài cách tân vào dịp Tết ngày càng tăng?</p>
+							<ul class="button-list">
+								<li><a href="#" class="button-fix"> Bình chọn</a></li>
+								<li><a href="#" class="button-fix1">Kết quả</a></li>
+							</ul>
+							<p class="icon_07"><span><img src="./css/images/icon_07.gif" />Đang mở</span></p>
+						</div>
+						<div class="cauhoi-item">
+							<ul class="item-profile">
+								<li><span class="name"><img src="./css/images/icon_09.gif"/>hohoangl...</span>
+									<p class="profile-show">hohoangluong</p>
+								</li>
+								<li><span class="time><img src="./css/images/icon_10.gif"/>27-02-2018 - 06-03-2018</span></li>
+								<li><span class="answer"><img src="./css/images/icon_11.gif"/>399 trả lời</span>
+									<p class="profile-show">399 trả lời</p>
+								</li>
+								<li>
+									<span class="subject"><img src="./css/images/icon_12.gif"/>
+										<a href="#">Cuộc sống</a>
+									</span>
+									<p class="profile-show">Cuộc sống</p>
+								</li>
+							</ul>
+							<p class="item-con">Mức độ đồng tình của bạn về xu hướng mặc áo dài cách tân vào dịp Tết ngày càng tăng?</p>
+							<ul class="button-list">
+								<li><a href="#" class="button-fix"> Bình chọn</a></li>
+								<li><a href="#" class="button-fix1">Kết quả</a></li>
+							</ul>
+							<p class="icon_07"><span><img src="./css/images/icon_07.gif" />Đang mở</span></p>
+						</div>
+						<div class="box-button">
+							<div class="box-but">
+								<a href="#" class="button-box"><span class="txt1">Thể lệ</span></a>
+								<a href="#" class="button-box"><span>Tạo khảo sát</span></a>
+							</div>
+							<p class="item-bot"><a href="#"><span>Xem thêm</span></a></p>
+						</div>	
+					</div>
+				</div>
+				
+			<!--END cau hoi-->	
+			</div>
+			<!--END-->	
+			
+			<!--banner-->	
+			<div class="banner1">
+				<a href="#" class="banner-a1"><img src="./css/images/banner_02.gif"/></a>
+				<a href="#" class="banner-a1"><img src="./css/images/banner_03.gif"/></a>
+			</div>
+			<!--END-->	
+			<div class="content-end">
+				<h2 class="h2-title"><img src="./css/images/icon_13.gif"><span>BÁO CÁO NGHIÊN CỨU</span></h2>
+				<div class="box-content">
+					<ul class="box-content-list">
+						<li class="clear-fix">
+							<div class="info-date">
+								<p class="month-txt"><span>Tháng 2</span></p>
+								<p class="info-txt"><span>27</span>2018</p>
+							</div>
+							<div class="info-right">
+								<p><a href="#">Thông báo kết quả Chương trình "Tạo Khảo Sát Nhanh" Ngày 06 - 02 - 2018</a></p>
+								<div>
+								<img src="./css/images/icon_16.gif"/><span>Vinaresearch</span>
+								<img src="./css/images/icon_17.gif"/><span>27-02-2018</span>
+								<img src="./css/images/icon_18.gif"/><span>402</span>
+								</div>
+								<p>Ban Quản Trị xin thông báo danh sách thành viên được xếp hạng cao nhất trong đợt Khảo Sát Nhanh ngày 06.02.2018 Hãy nhanh tay gửi câu hỏi K...</p>
+							</div>
+						</li>
+						<li class="clear-fix">
+							<div class="info-date">
+								<p class="month-txt"><span>Tháng 2</span></p>
+								<p class="info-txt"><span>27</span>2018</p>
+							</div>
+							<div class="info-right">
+								<p><a href="#">Thông báo kết quả Chương trình "Tạo Khảo Sát Nhanh" Ngày 06 - 02 - 2018</a></p>
+								<div>
+								<img src="./css/images/icon_16.gif"/><span>Vinaresearch</span>
+								<img src="./css/images/icon_17.gif"/><span>27-02-2018</span>
+								<img src="./css/images/icon_18.gif"/><span>402</span>
+								</div>
+								<p>Ban Quản Trị xin thông báo danh sách thành viên được xếp hạng cao nhất trong đợt Khảo Sát Nhanh ngày 06.02.2018 Hãy nhanh tay gửi câu hỏi K...</p>
+							</div>
+						</li>
+						<li class="clear-fix">
+							<div class="info-date">
+								<p class="month-txt"><span>Tháng 2</span></p>
+								<p class="info-txt"><span>27</span>2018</p>
+							</div>
+							<div class="info-right">
+								<p><a href="#">Thông báo kết quả Chương trình "Tạo Khảo Sát Nhanh" Ngày 06 - 02 - 2018</a></p>
+								<div>
+								<img src="./css/images/icon_16.gif"/><span>Vinaresearch</span>
+								<img src="./css/images/icon_17.gif"/><span>27-02-2018</span>
+								<img src="./css/images/icon_18.gif"/><span>402</span>
+								</div>
+								<p>Ban Quản Trị xin thông báo danh sách thành viên được xếp hạng cao nhất trong đợt Khảo Sát Nhanh ngày 06.02.2018 Hãy nhanh tay gửi câu hỏi K...</p>
+							</div>
+						</li>
+						<li class="clear-fix">
+							<div class="info-date">
+								<p class="month-txt"><span>Tháng 2</span></p>
+								<p class="info-txt"><span>27</span>2018</p>
+							</div>
+							<div class="info-right">
+								<p><a href="#">Thông báo kết quả Chương trình "Tạo Khảo Sát Nhanh" Ngày 06 - 02 - 2018</a></p>
+								<div>
+								<img src="./css/images/icon_16.gif"/><span>Vinaresearch</span>
+								<img src="./css/images/icon_17.gif"/><span>27-02-2018</span>
+								<img src="./css/images/icon_18.gif"/><span>402</span>
+								</div>
+								<p>Ban Quản Trị xin thông báo danh sách thành viên được xếp hạng cao nhất trong đợt Khảo Sát Nhanh ngày 06.02.2018 Hãy nhanh tay gửi câu hỏi K...</p>
+							</div>
+						</li>
+						<li class="clear-fix">
+							<div class="info-date">
+								<p class="month-txt"><span>Tháng 2</span></p>
+								<p class="info-txt"><span>27</span>2018</p>
+							</div>
+							<div class="info-right">
+								<p><a href="#">Thông báo kết quả Chương trình "Tạo Khảo Sát Nhanh" Ngày 06 - 02 - 2018</a></p>
+								<div>
+								<img src="./css/images/icon_16.gif"/><span>Vinaresearch</span>
+								<img src="./css/images/icon_17.gif"/><span>27-02-2018</span>
+								<img src="./css/images/icon_18.gif"/><span>402</span>
+								</div>
+								<p>Ban Quản Trị xin thông báo danh sách thành viên được xếp hạng cao nhất trong đợt Khảo Sát Nhanh ngày 06.02.2018 Hãy nhanh tay gửi câu hỏi K...</p>
+							</div>
+						</li>
+						
+					</ul>
+					<div class="pager-link">
+						<ul class="pager-link-list">
+							<li class="pager-txt"><a href="#">Trang đầu</a></li>
+							<li class="prev-link"><a href="#"><img src="./css/images/icon_prev.gif"/></a></li>
+							<li><a class="active">1</a></li>
+							<li><a class="active">2</a></li>
+							<li><a class="active">3</a></li>
+							<li><a class="active">4</a></li>
+							<li><a class="active">5</a></li>
+							<li class="next-link"><a href="#"><img src="./css/images/icon_next.gif"/></a></li>
+							<li class="pager-txt"><a href="#">Trang cuối</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="banner2">
+				<a href="#" class="banner-a2"><img src="./css/images/banner_01.gif"/></a>
+				<a href="#" class="banner-a2"><img src="./css/images/banner_02.gif"/></a>
+				<a href="#" class="banner-a3"><img src="./css/images/banner_03.gif"/></a>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="">
+				<div class="footer-inner">
+					<div class="block-coloum">
+						<div class="coloum1">
+							<p class="f-title"><span>Vinaresearch.net</span></p>
+							<ul class="f-navi">
+								<li><a href="#">Trang chủ</a></li>
+								<li><a href="#">Giới thiệu</a></li>
+								<li><a href="#">Điểm thưởng/Quà tặng</a></li>
+								<li><a href="#">Báo cáo nghiên cứu</a></li>
+								<li><a href="#">Hỏi đáp</a></li>
+								<li><a href="#">Liên hệ</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Chính sách bảo mật</a></li>
+								<li><a href="#">Tuyển dụng</a></li>
+							</ul>
+						</div>
+						<div class="coloum2">
+							<p class="f-title"><span>Về chúng tôi</span></p>
+							<p><span>Công ty Cổ phần W&amp;S là doanh nghiệp 100% vốn Nhật Bản, tiên phong trong lĩnh vực Nghiên cứu thị trường trực tuyến tại Việt Nam. </span></p>
+							<ul class="f-contact">
+								<li><img src="./css/images/icon_20.gif"/><span>Lầu 7, Tòa nhà DC Tower, Số 111D, Đường Lý Chính Thắng, Phường 7, Quận 3, TP.HCM</span></li>
+								<li><img src="./css/images/icon_21.gif"/><span>(+84) 28 3848 3732</span></li>
+								<li><img src="./css/images/icon_22.gif"/><a href="#"><span>support@vinaresearch.net</span></a></li>
+							</ul>
+						</div>
+						<div class="coloum3">
+							<p class="f-title"><span>Theo dõi chúng tôi trên Facebook</span></p>
+						</div>
+					</div>
+					<div class="footer-botton">
+						<p class="coppy-right">Vinaresearch - Một sản phẩm của công ty nghiên cứu thị trường <a href="#"><span> W&S </span></a>. <br>
+						Copyright © 2018 <a href="#">W&S JSC</a>. All rights reserved.</p>
+						<p class="coppy-r">
+						<img src="./css/images/img_01.gif"/>
+						<img src="./css/images/img_02.gif"/>
+						</p>		
+					</div>
+						
+				</div>
+			</div>
+			
+		</div>
+	</div>	
+</body>
+</html>

@@ -1,0 +1,141 @@
+ body {margin:0px auto;}
+.wrapper {width:100%; margin:0px auto;}
+.header {background: #EFEFEF;margin:0px auto;}
+.header-fix { width:75%;margin: 0px auto; padding:20px;}
+.header-right { width:36%;float:right;}
+.header-list {list-style-type:none;}
+.header-a1 {text-decoration:none; float: left;color:#FFF;background:#0EA2D3;border-bottom:2px solid #587984; padding:5px 42px; margin-right:20px;}
+.header-a2 {text-decoration:none; float: left;color:#FFF;background:#F57B20;border-bottom:2px solid #CA8241;padding:5px 45px; }
+.menu {width:100%;margin: 0px auto;background:#77787B;padding-bottom: 15px;}
+.menu-box {width:75%;margin:0px auto;}
+.menu-list {list-style-type:none; margin:0px auto; padding:20px;  text-align:center; }
+.list-k {position:relative;float:left;}
+.list-k > .sub-menu{display:none; position:absolute;}
+.list-k:hover .sub-menu{display:block; }
+.sub-menu {list-style-type:none;background: #fff;display: none;position: absolute;left: 0px;top: 35px;width: 195px; padding-left: 0px}
+.sub-menu li {    float: none;}
+.menu-aa{text-decoration:none;    border-bottom: 1px solid #dfdfdf;color: #5d5d5d;display: block; padding: 13px 12px;}
+.menu-aa:hover {background:#EFEFEF;}
+.search-btn {float:right;margin-top: -20px;}
+.menu-a {text-decoration:none; float:left; color:#FFF;  display: block;position: relative; text-align:center;padding:0px 15px 15px 15px; margin-bottom: -15px; }
+.menu-a:hover {background:#77787B;color:#F57B20; border-bottom:2px solid #F57B20;}
+#search-box {width:75%;margin:0px auto; background:#77787B;padding-top: 20px;}
+#search-box ul {list-style-type:none;}
+.search-input {float:left; width:95%; margin-top: -20px;margin-left: -5px; }
+input.txt-input{ border:1px solid #77787b; color:#000; padding: 12px; margin-top: -10px; width: 90%;}
+.img-close {float:right; width:5%;    margin-top: -20px;margin-right: -35px;}
+
+/*---------------------------------*/
+
+.content-all { width:75%; margin:0px auto;}
+.banner { margin:35px 0px 20px 0px; }
+.content-box{margin:0px auto;padding:20px; height: 320px; background:#EFEFEF;}
+.box-list{background:#EFEFEF;}
+.box-ul{list-style-type:none;padding-left: 0px;     position: relative;}
+.box-li {width:220px; float:left; border:1px solid #828282;text-align:center; margin:-15px 15px 0px 5px;position: relative;}
+.box-a {text-decoration:none; position:relative; width:100%;height:100%; display:block;}
+.box-h3 {margin:5px; color:#616A6F;}
+.box-header{text-align:center; background:#828282;font-size:18px; display:block;padding:10px; color:#FFF;}
+.box-text {font-size:18px;color:#828282; height:195px;padding:14px;display: block;background:#FFF;}
+.box-text1{font-size:16px; position:absolute; top:18%; width:100%;height:82%;left:0px; background:#F57B20; display:none;text-align:center;}
+.box-text1 span {margin-top:41%; display:block; color:#FFF;}
+.box-a:hover {}
+.box-a:hover .box-text1 {display:block;}
+/*-----------------------------------*/
+.home-block {margin-top:20px;height: 950px;}
+.khaosat-all {width:490px; float:left;}
+.cauhoi-all {width:490px; float:right;}
+.h2-title {margin-top:0px;}
+.block-inner {padding: 12px 20px 30px; background:#EFEFEF;}
+.khaosat-item {height:130px;border-bottom:2px solid #DBDBDB;position: relative; margin-bottom:14px;padding-bottom: 14px;}
+.item-header {color:#F57B20; font-weight: bold;padding-bottom: 8px;}
+.khaosat-fix {width:100%;margin-bottom: 45px; padding-bottom:16px; }
+.fix-content1 {width:300px; float:left;margin-top: -8px;}
+.fix-content2 {float:right;font-weight: bold}
+.fix-span {    background: none repeat scroll 0 0 #d30e0e;border-radius: 50%; color: #fff;display: inline-block; margin-right: 6px;padding: 9px 0px;text-align: center;width: 43px;height: 27px;}
+.button-list {list-style-type:none;}
+.button-fix {text-decoration:none;color:#FFF; background:#F57B20; padding:7px 20px;text-align:center; width:100px;margin-left:-40px;border:1px solid #F57B20;}
+.button-fix:hover {color:#F57B20; background:#FFF;}
+.item-bot {text-align:right;    font-weight: bold; }
+.item-bot a {color:#F57B20;text-decoration:none;}
+.item-bot a:hover {border-bottom:1px solid #F57B20;}
+.profile-show {    background: none repeat scroll 0 0 #fff;border: 1px solid #bbb;display: none;font-size: 12px;left: 18px;line-height: 17px;overflow: visible !important;padding: 0 5px;position: absolute;text-align: center;top: -20px;width: 150px !important;z-index: 10;}
+.item-profile {list-style-type:none; margin-left:-38px;}
+.item-profile li{float:left;padding-bottom: 15px;}
+.button-fix1{text-decoration:none;color:#FFF; background:#F52061; padding:7px 20px;text-align:center; width:100px;margin-left:15px;border:1px solid #F52061;}
+.button-fix1:hover {color:#F52061; background:#FFF;}
+.button-list li {float:left;}
+.item-con {padding-bottom: 15px;}
+.cauhoi-item {height:130px;border-bottom:2px solid #DBDBDB;position: relative; margin-bottom:14px;padding-bottom: 14px;}
+.icon_07 {float:right;margin-top: -5px;}
+.box-button {}
+.box-but {margin-top: 5px; float:left;}
+.button-box {text-decoration:none; border:1px solid #0EA2D3; color:#0EA2D3;padding:7px 20px;text-align:center; width:100px;background:#FFF; }
+.button-box:hover {color:#FFF ;background:#0EA2D3;}
+.txt1{padding:5px 20px;}
+/*-------------------------------------------*/
+.banner1 {margin-top:35px;}
+.banner-a1 {margin-right:80px;}
+/*-------------------------------------------*/
+.content-end {padding-top:20px;}
+.box-content {padding:20px; background:#EFEFEF;margin:0px auto;height:735px;}
+.box-content-list { margin: -14px 0 0; list-style-type:none;    padding-bottom: 14px; }
+.clear-fix{ border-bottom: 2px solid #dbdbdb;margin: 14px 0 0;padding-bottom: 13px; margin-left: -40px;display: list-item;}
+.info-date { width:100px;background: #fff;float: left;margin-right:15px; text-align: center;height: 95px;}
+.month-txt {display:block;background:#F57B20;color:#FFF; margin:0px auto; padding: 6px;}
+.info-txt{font-size:12px;font-weight: bold;margin:0px auto; background:#FFF;}
+.info-txt span {font-size:40px;display:block;}
+.info-right { margin-right: 20px;width: 830px; margin-bottom: -15px;}
+.info-right p a {text-decoration:none; color:#F57B20;font-weight:bold;}
+
+.pager-link{margin-top: 0px;    position: relative;    overflow: hidden;}
+.pager-txt a{text-decoration:none;}
+.pager-txt a:hover{color:#F39956;}
+.active {}
+.active:hover{background:#000;color:#FFF;}
+.pager-link-list { list-style-type:none; margin-left:250px;  }
+.pager-link-list li a{float:left;text-align: center; margin-right:10px;}
+ /*-------------------------------------------*/
+.banner2 {margin-top:20px;margin-bottom: 20px;}
+.banner-a2 {margin-right:80px;}
+.banner-a3 {float:right;}
+ /*-------------------------------------------*/
+.footer {width:100%; padding: 18px 0 50px;; background:#77787B;}
+.footer-inner {margin:0px auto;width:75%;}
+.block-coloum{height:326px; margin-bottom :20px; }
+.coloum1 {height:326px; float:left; border-right: 2px solid #696969;width:250px; margin-right:80px;}
+.f-title {margin-bottom: -15px;}
+.f-title span {border-bottom: 2px solid #dc7a32;color: #313131;display: inline-block;font-size: 16px !important;font-weight: bold;margin-bottom: 21px;padding: 0 10px 14px 0;}
+.f-navi{list-style-type:none;margin-left: -40px;}
+.f-navi li{padding-bottom: 10px;}
+.f-navi li a {text-decoration:none;color:#FFF;}
+.coloum2 {height:326px; float:left; border-right: 2px solid #696969; width:250px; color:#FFF;padding-right:70px;}
+.f-contact {list-style-type:none; }
+.f-contact li{margin-top:10px;line-height: 21px;text-indent: -30px;}
+.f-contact li a{color:#FFF; text-decoration:none;}
+.f-contact li a:hover{border-bottom:1px solid #FFF;}
+.coloum3 {float:right;height:326px;width:250px;}
+.footer-bottom {}
+.footer-bottom p{ display: inline-block;vertical-align: middle;}
+.coppy-right { font-size: 13px;line-height: 18px; padding-right: 19px;width: 445px;float:left; padding-top: 55px; color:#FFF;}
+.coppy-right a{text-decoration:none; color:#F17A28;}
+.coppy-right a:hover {border-bottom:1px solid #F17A28;}
+.coppy-r {margin-top:10px;}
+ /*-------------------------------------------*/
+
+#search-box:after,
+.block-coloum:after,
+.banner-a2:after,
+.clear-fix:after,
+.box-content-list:after,
+.box-button:after;
+.cauhoi-item:after,
+.khaosat-item:after,
+.warpper:after,
+.header:after,
+.menu:after,
+.menu-box:after,
+.content-all:after;
+
+
+.clearfix::after { content: "";clear: both; display: block;   height: 0; line-height: 0; visibility: hidden;}
