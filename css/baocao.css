@@ -26,55 +26,47 @@
 .img-close {float:right; width:5%;    margin-top: -20px;margin-right: -35px;}
 
 /*********************************/
+.content {width:75%; margin:0px auto; padding: 20px 0px ;}
+.report {margin-bottom:20px;}
+.topic-path {margin:0px;}
+.clearfix {margin-bottom:20px; list-style-type:none;}
+.clearfix li {color:#F57B20; margin-left:-40px;}
+.clearfix li a {text-decoration:none; color:#675D85; padding-right:10px;}
+.report-tab {margin:0px auto; height:50px;}
+.clearfix1 {list-style-type:none;    margin-left: -40px;}
+.clearfix1 li {background:#C0C0C0;width: 330px; padding:15px 0px; text-align: center; float: left; margin-right:5px; }
+.link { text-decoration :none;}
+.clearfix1 span {color:#FFF;}
+.link:hover {background:#F57B20;padding:15px; display:block; margin:-15px 0; }
+.main-topic { margin-top: 20px;}
+.clearfix2 {}
 
-.content { width:75%; margin:0px auto; padding: 20px 0px ;}
-.khung-content {margin-bottom:20px;}
+.report-content{margin-bottom:20px; position:relative;}
+.report-content a {text-decoration:none; display:block; color:#F57B20;}
+.report-boxbg {background: #5a5a5a; width: 50%; min-height: 276px; position: absolute; top: 0;right: 0; margin-top:0px;}
+.report-box {color: #fff;padding: 20px; position: absolute;top: 0;right: 0;width: 460px;}
+.report_title {margin: 0 0 7px;padding: 0 0 8px;border-bottom: 2px solid #fff;flex-direction: column;align-items: flex-start;width: 100%; font-weight:bold;}
+.txt_date {font-weight:bold;}
 .h2-title {font-size:20px;margin-bottom:20px;margin-top:0px;}
-.box-content {background:#EFEFEF;padding:20px;}
-.change-point-left {padding-right: 60px;float: left;}
-.heightLine-point {background: #fff;float: left;margin-right: 10px;width: 200px;}
-.point-left-title {background: #0ea2d3;min-height: 128px; padding: 22px 10px 0; text-align: center; margin-top: 0px;}
-.point-left-title img {border: 0; vertical-align: bottom;}
-.point-left-title span {display: block;color: #fff;font-weight: bold;padding-top: 12px; margin-bottom:0px; margin-top:0px;}
-.point-left-txt {border-top: 2px solid #0ea2d3;margin-top: 10px;padding: 10px 15px;min-height: 120px;}
-.point-left-txt strong {font-weight: bold;}
-.orange-txt {color:#f57b20;}
-.blue-txt {color:#0ea2d3;}
-.change-point-right { background: #fff;float: right;width: 260px;}
-.point-right-title {background: #F57B20;min-height: 128px; padding: 22px 10px 0; text-align: center; margin-top: 0px;}
-.point-right-title img {border: 0; vertical-align: bottom;}
-.point-right-title span {display: block;color: #fff;font-weight: bold;padding-top: 12px; margin-bottom:0px; margin-top:0px;}
-.point-right-txt {border-top: 2px solid #F57B20;margin-top: 10px;padding: 10px 15px;min-height: 120px; }
-.point-right-txt strong {font-weight: bold;}
-.point-box {background: #fff;border-left: 4px solid #f57b20;padding: 13px 10px;margin-top: 20px;}
-.point-ul {margin: -25px 0 0 0; list-style-type:none;}
-.point-ul li{ margin-top: 25px; position: relative;padding-left: 17px; margin-left:-30px;}
-.point-box-gold {width:545px;margin-bottom:20px;}
-.point-box-gold img {float:right;margin: 0 0 0 30px;}
-.point-box-gold p {font-size: 20px;font-weight: bold;color: #f57b20; text-align: center;padding: 13px 0; width: 300px;margin-top: 0px; border:2px solid #F57B20;}
-.heightLine-point01 {background: #fff;float: left;margin-right: 10px;width: 200px;}
-.point-right-txt1 {border-top: 2px solid #F57B20;margin-top: 10px;padding: 10px 15px; padding-bottom: 48px;}
-.point-box-note {padding: 17px 20px;}
-.point-note-title {color: #f57b20;font-size: 20px;font-weight: bold;margin-bottom: 45px; text-align: center;}
-.point-note-title span {border-bottom:2px solid #5D5D5D;padding-bottom:17px;}
-.point-box-note p strong {font-weight:bold; margin-top:0px;}
-.point-note-ul {list-style-type:none;}
-.point-note-ul li {margin-left:-40px;padding-top:20px; color:#615D6A;}
-.point-note-ul li {margin-left:-40px;padding-top:20px; color:#615D6A;}
-.bonus-table {width: 100%; margin-bottom: 20px;}
-.size01 {width:200px;color:#FFF; background:#F57B20; padding-bottom:20px;padding-top:20px;}
-.size02 {width:460px;color:#FFF; background:#F57B20; padding-bottom:20px;padding-top:20px;}
-.size03 {width:299px;color:#FFF; background:#F57B20; padding-bottom:20px;padding-top:20px;}
-.bonus-table strong {font-weight:bold;}
-.bonus-table td {background:#FFF;border-top:1px solid #EFEFEF;border-right:1px solid #EFEFEF;padding: 10px;}
-.orange-txt {color:#F57B20;}
-.popup-show {text-decoration:none;color:#F57B20;}
-.popup-show:hover {border-bottom:1px solid #F57B20;}
-.bonus-table a{text-decoration:none;color:#F57B20;}
-.bonus-table a:hover {border-bottom:1px solid #F57B20;}
-.link_more {float:right;}
-.link_more a {color:#F57B20; text-decoration:none;font-weight:bold;}
-.link_more a:hover {border-bottom:1px solid #F57B20;}
+.list-report {display: flex;flex-wrap: wrap; padding: 11px 11px;  background: #efefef; list-style-type:none;}
+.list-report li { width: 240px; text-align: center; margin: 0 6px 0 0; float: left; background: #fff; padding: 0 0 15px;}
+.list-report li a{height: 100%; display: block;text-decoration: none;}
+.transparent { margin: 0 0 15px;}
+.main-content {background: #efefef; padding: 20px;margin: 0 0 20px;}
+.clearfix3 {background: #fff;margin: 0 0 20px; position: relative;}
+.report-image {float:left; margin:0px;}
+.report-right {float:right; padding: 15px 15px 0 0; width: 687px;}
+.list-report2 {list-style-type:none;margin-left:-40px;}
+.clearfix3 a {height: 100%;display: block;text-decoration: none;}
+.report_title_news {color:#F57B20; font-weight:bold;}
+.button {position: absolute;    bottom: 12px;right: 50px; width: 70px; height: 20px;}
+.detail-link{background: #f57b20;color: #fff;display: inline-block;position: absolute; padding:0px 10px;}
+.button:hover {background:#F8A263;}
+
+
+
+
+
 /*********************************/
 .footer {width:100%; padding: 18px 0 50px;; background:#77787B;}
 .footer-inner {margin:0px auto;width:75%;}
@@ -99,10 +91,10 @@
 .coppy-r {margin-top:10px;}
 /*********************************/
 
-
-.point-box-gold:after,
-.box-content:after,
-.change-point:after,
+.clearfix3:after,
+.list-report2:after,
+.content:after,
+.report:after,
 #search-box:after,
 .warpper:after,
 .header:after,
