@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Search DEmo</title>
+	<link rel="stylesheet" type="text/css"  href="./css/hoidap.css"/>
+	<script type="text/javascript" src="./js/function.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="header-fix">
+				<a href="#"><img src="./css/images/logo.png" alt=""></a>
+				<div class="header-right">
+					<ul class="header-list">
+						<li><a href="" class="header-a1">Đăng nhập</a></li>
+						<li><a href="" class="header-a2">Đăng ký</a></li>
+					</ul>		
+				</div>
+			</div>
+			<div class="menu">
+				<div class="menu-box" id="menu-box">
+					<ul class="menu-list">
+						<li class="list-k"><a href="#" class="menu-a">Trang chủ</a></li>
+						<li class="list-k"><a href="#" class="menu-a">Giới thiệu</a></li>
+						<li class="list-k"> <a href="#" class="menu-a">Điểm thưởng/Quà tặng</a></li>
+						<li class="list-k"><a href="#" class="menu-a">Hoạt động</a>
+							<ul class="sub-menu">
+								<li><a href="#" class="menu-aa">Đấu giá ring quà</a></li>
+								<li><a href="#" class="menu-aa">Quỹ về ánh mắt trẻ thơ</a></li>
+								<li><a href="#" class="menu-aa">Khảo sát nhanh</a></li>
+								<li><a href="#" class="menu-aa">Thành viên nói gì về VNR</a></li>
+								<li><a href="#" class="menu-aa">Vua khảo sát</a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="menu-a">Báo cáo nghiên cứu</a></li>
+						<li><a href="#" class="menu-a">Hỏi đáp</a></li>
+						<li><a href="#" class="menu-a">Liên hệ</a></li>
+					</ul>
+					<p class="search-btn"><a/ href="#" onclick="hideMenu()"><img src="./css/images/search_icon.png"/></a></p>
+				</div>
+				<div id="search-box" style="display:none">
+					<ul>
+						<li class="search-input">
+							<form >
+								<input name="txtSearch" class="txt-input" type="text" placeholder="Nhập từ khóa " > 
+							</form>
+						</li>
+						
+						<li class="img-close"><img src="./css/images/close_btn02.png" onclick="showMenu()"/></li>
+					<ul>
+				</div>	
+			</div>
+		</div>
+		<!--het header-->
+		<div class="content">
+			<div style="display:block">
+				<h2 class="h2-title"><img src="./css/images/icon_33.gif" />NHỮNG CÂU HỎI THƯỜNG GẶP</h2>
+				<div  class="box-content">
+					<div class="box-faq" style="background:#FFF" id="box-faq">
+						<ul class="tab-list">
+							<li class="selected">Đăng ký</li>
+							<li class="">Đăng nhập - Mật khẩu</li>
+							<li class="">Điểm thưởng</li>
+							<li>Bảng khảo sát</li>
+							<li class="tab-list__last">Các câu hỏi khác</li>
+						</ul>
+						<div class="tab-content" style="display:block">
+							<dl class="faq-list">
+								<dt><span class="">Tôi không nhận được mail?</span></dt>
+									<dd style="display: none;">Trong trường hợp không nhận được mail, bạn cần kiểm tra và xác nhận lại những thông tin sau:<br> 1. Kiểm tra hộp thư rác / Junk Mail. Vui lòng thêm địa chỉ <a href="#">noreply@vinaresearch.net</a> vào danh bạ để các email từ Vinaresearch không bị chuyển vào mục thư rác.<br> 2. Kiểm tra lại khi đăng ký bạn có điền nhầm địa chỉ email hay không? Nếu có, hãy liên hệ với chúng tôi theo địa chỉ <a href="mailto:support@vinaresearch.net">support@vinaresearch.net</a> để nhận được hỗ trợ. <br></dd>
+								<dt><span>Tôi muốn thay đổi thông tin đăng ký?</span></dt>
+									<dd style="display: none;">Để thay đổi thông tin đăng ký, bạn có thể làm theo các bước sau: <br><br>
+									1. Đăng nhập vào Vinaresearch và vào mục <b>“Thông tin đăng ký” – “Thay đổi thông tin đăng ký”.</b><br><br>
+									2. Điều chỉnh các thông tin mà bạn muốn thay đổi. Đặc biệt, đối với các thông tin sau: <b>“Tên đăng nhập” – “Email” – “Giới tính” – “Ngày tháng năm sinh”</b>, bạn vui lòng liên hệ với Vinaresearch theo địa chỉ <a href="#" style="text-decoration:none; color:#f57b20">support@vinaresearch.net</a> và yêu cầu chúng tôi thay đổi cho bạn.<br><br>
+									※ Trường hợp bạn thay đổi địa chỉ email, do hệ thống cần thời gian để cập nhật nên có thể phải sau 2-3 ngày, bạn mới nhận được email hướng dẫn khảo sát đến địa chỉ email mới.<br></dd>
+								<dt ><span>Tôi có mất phí đăng kí thành viên tại Vinaresearch không?</span></dt>
+									<dd style="display: none;">Bạn không hề mất một chi phí nào khi đăng ký thành viên hay sử dụng dịch vụ tại website <b>Vinaresearch.net</b>.</dd>
+								<dt><span>Các thành viên trong gia đình / đồng nghiệp có thể cùng tham gia làm khảo sát không? </span></dt>
+									<dd style="display: none;">Các thành viên trong gia đình / đồng nghiệp đều có thể tham gia đăng ký làm khảo sát. Tuy nhiên, mỗi người cần đảm bảo các thông tin sau để có thể tham gia khảo sát:<br><br>
+									1.	Các thành viên tự đăng ký bằng địa chỉ email, số điện thoại cá nhân khác nhau.<br><br>
+									2.	Thông tin thành viên phải chính xác và có thật khi Vinaresearch liên lạc xác nhận thông tin.<br><br>
+									3. Các thành viên trong gia đình/ đồng nghiệp không sử dụng chung tài khoản trong các hoạt động tại Vinaresearch. Đặc biệt, việc trả lời khảo sát phải dựa trên ý kiến cá nhân, không tham khảo hoặc sao chép thông tin trả lời từ người khác.<br><br>
+									Các thành viên trong gia đình / đồng nghiệp có thể cùng tham gia các khảo sát. Tuy nhiên, để đảm bảo tính khách quan và ngẫu nhiên cho kết quả nghiên cứu, sẽ có một số khảo sát sẽ không cho phép các thành viên trong gia đình / đồng nghiệp cùng tham gia. 
+									</dd>
+								<dt><span>Tôi có thể đăng ký được nhiều tài khoản tại Vinaresearch không?</span></dt>
+									<dd style="display: none;">Mỗi thành viên chỉ được đăng ký duy nhất một tài khoản tại Vinaresearch, theo <a href="#" style="text-decoration:none; color:#f57b20">Điều 17 Quy định đăng ký thành viên</a>. Trong trường hợp bạn đăng ký nhiều tài khoản, chúng tôi sẽ xác nhận và khoá các tài khoản ảo / tài khoản chính.Mong các bạn thông cảm.</dd>
+								<dt><span>Làm thế nào để hủy bỏ tài khoản đăng ký tại Vinaresearch?</span></dt>
+									<dd style="display: none;">Việc đăng ký và ngừng tham gia Vinaresearch là tự nguyện và các thành viên có thể làm theo các bước sau để huỷ bỏ tài khoản tại Vinaresearch:<br><br>
+									1. Đăng nhập vào Vinaresearch, chọn mục <b>“Thông tin đăng ký” - “Hủy bỏ tài khoản”</b>.<br><br>
+									2. Điền các thông tin yêu cầu và chọn <b>“Xác nhận nội dung”</b>.<br><br>
+									Trong vòng 1 tháng sau khi đăng ký huỷ tài khoản được chấp nhận, bạn sẽ nhận được email thông báo chính thức. Kể từ khi nhận được email, tất cả các thông tin đăng ký của bạn sẽ được xoá khỏi hệ thống và bạn sẽ không nhận được email mời tham gia khảo sát nữa. 
+									</dd>
+							</dl>
+						</div>
+						<div class="tab-content" style="display: none;">
+							<dl class="faq-list">
+								<dt><span>Tôi không thể đăng nhập được?</span></dt>
+									<dd style="display: none;">Nếu không đăng nhập được vào <b>Vinaresearch.net</b>, bạn vui lòng kiểm tra lại các trường hợp sau:<br><br>1.	Bạn chưa nhấn vào link kích hoạt trong email kích hoạt.<br><br>2.	Kiểm tra lại xem bạn có gõ nhầm tên đăng nhập / địa chỉ email hoặc mật khẩu không? <br><br>3.	Phiên đăng nhập của bạn không được ghi nhận vì mạng / quá tải hệ thống. Bạn có thể chờ 5 phút rồi đăng nhập lại bình thường.<br><br>Nếu bạn đã kiểm tra và đăng nhập thử nhưng vẫn không thành công, nhân viên kỹ thuật của Vinaresearch sẽ hỗ trợ bạn ngay qua số điện thoại <b>(08) 3848.3731</b>. Bạn cũng có thể để lại tin nhắn qua địa chỉ email <a href="mailto:support@vinaresearch.net">support@vinaresearch.net</a> .</dd>
+
+								<dt><span>Tôi muốn thay đổi mật khẩu?</span></dt>
+									<dd style="display: none;">Bạn cần đăng nhập, vào trang cá nhân và làm theo các bước sau: <br><br>
+									1. Vào mục <b>“Thông tin đăng ký”</b>, chọn <b>“Thay đổi thông tin đăng ký”</b>.<br><br>
+									2. Điền mật khẩu đăng nhập hiện tại – <b>“Mật khẩu mới”</b> và <b>“Xác nhận lại mật khẩu”</b>.<br><br>
+									Vậy là bạn đã thay đổi được mật khẩu của mình. Xin chúc mừng bạn!
+									</dd>
+
+								<dt><span>Tôi quên mật khẩu?</span></dt>
+									<dd style="display: none;">Nếu quên mật khẩu, bạn hãy click vào mục <b>“Quên mật khẩu”</b> ngay dưới hộp Đăng nhập trên trang chủ, điền địa chỉ email của bạn để yêu cầu gửi mật khẩu mới đến hộp thư của bạn. Hãy lưu ý kiểm tra thư trong cả mục hộp thư đến và thư rác để nhận lại Mật khẩu mới nhé.<br><br>
+									Sau khi vào Vinaresearch, bạn nên thay đổi lại Mật khẩu của mình.
+									</dd>
+							</dl>
+						</div>
+						<div class="tab-content" style="display: none;">
+							<dl class="faq-list">
+								<dt><span>Có bao nhiêu loại khảo sát?</span></dt>
+									<dd style="display: none;">Hệ thống khảo sát của Vinaresearch bao gồm 2 loại: Khảo sát công khai và Khảo sát riêng. <br><br>
+										<b>1.	Khảo sát công khai</b>: <br>
+										- <b>Đối tượng</b>: Tuỳ theo chủ đề nghiên cứu, một số hay toàn bộ các thành viên đều có thể tham gia. <br>
+																	- <b>Cách tham gia</b>: Chỉ cần đăng nhập vào Vinaresearch, trong <b>Trang cá nhân</b> sẽ có <b>Danh sách khảo sát</b>. Bạn có thể làm tất cả các khảo sát có hiện trạng thái <b>“Đăng ký”</b>. <br>
+										- <b>Thông báo</b>: Hệ thống sẽ gửi email mời tham gia một cách ngẫu nhiên với từng khảo sát công khai. Bạn có thể sẽ không nhận được email thông báo thường xuyên, nhưng có thể đăng nhập trang cá nhân hàng ngày để kiểm tra các khảo sát mới.<br><br>
+										<b>2.	Khảo sát riêng:</b><br>
+											
+										- <b>Đối tượng</b>: Chỉ có một số thành viên phù hợp với nghiên cứu và có nhận email mời có thể tham gia.<br>
+										- <b>Cách tham gia</b>: Bạn có thể click vào link khảo sát gửi kèm trong email mời, hay đăng nhập vào Vinaresearch, trong <b>Trang cá nhân</b> sẽ có <b>Danh sách khảo sát riêng</b>.  Bạn có thể làm khảo sát có hiện trạng thái <b>“Đăng ký”</b>.<br> 
+										- <b>Thông báo</b>: Hệ thống sẽ gửi email mời theo số lượng có giới hạn.<br><br>
+										Tuy nhiên, cũng có trường hợp bạn nhận được thư mời nhưng không tham gia được khảo sát. Nguyên nhân là vì khảo sát có thể kết thúc sớm hơn dự kiến, hay số lượng người làm đã đủ.
+									</dd>
+								<dt><span>Tôi cần lưu ý điều gì khi trả lời các câu hỏi khảo sát?</span></dt>
+									<dd style="display: none;">Bạn vui lòng lưu ý đối với việc trả lời khảo sát:<br><br>
+										1.	Một khi bạn đã trả lời xong bảng khảo sát thì không thể quay lại trả lời lại. Vì vậy bạn vui lòng đọc kĩ nội dung câu hỏi trước khi trả lời.<br><br>
+										2.	Vinaresearch sẽ kiểm tra các dữ liệu sau khi khảo sát. Những bài khảo sát có dấu hiệu spam / không chân thực sẽ được ghi nhận lại và xác nhận. <br><br>
+										Trong trường hợp các bài khảo sát không chất lượng được ghi nhận quá 3 
+										lần, bạn sẽ không được mời tham gia các khảo sát tiếp theo, đồng thời chúng tôi sẽ thông báo khoá tài khoản cá nhân 
+										của bạn.
+									</dd>
+								<dt><span>Tôi có phải trả lời tất cả các khảo sát không?</span></dt>
+									<dd style="display: none;">Việc tham gia trả lời khảo sát hay không là tùy thuộc vào sở thích của cá nhân bạn đối với nội dung khảo sát. Vinaresearch chỉ khuyến khích các bạn tham gia khảo sát thường xuyên và tích cực để có cơ hội đóng góp ý kiến và có thể tích lũy điểm nhanh hơn.</dd>
+								<dt><span>Kết quả của các câu trả lời khảo sát sẽ được dùng để làm gì?</span></dt>
+									<dd style="display: none;">Kết quả khảo sát sẽ được chuyển thành dữ liệu nghiên cứu, không xác định cụ thể cá nhân trả lời. Sau đó, dữ liệu được gửi đến doanh nghiệp yêu cầu khảo sát và sử dụng cho việc phát triển các sản phẩm / dịch vụ mới.</dd>
+							</dl>
+						</div>
+						<div class="tab-content" style="display: none;">
+							<dl class="faq-list">
+								<dt><span class="">Tôi không nhận được điểm giới thiệu bạn bè?</span></dt>
+									<dd style="display: none;">Sau khi người được giới thiệu đăng ký dưới link <b>“Giới thiệu bạn bè”</b>, Vinaresearch sẽ kiểm tra thông tin từng người đăng ký theo quy trình thông thường. <br><br>
+										1. Nếu người được giới thiệu có các thông tin cá nhân đầy đủ và chính xác, Vinaresearch sẽ xác nhận <b>“Tốt”</b> và hệ thống sẽ tự động cộng điểm cho người giới thiệu.<br><br>
+										2.  Nếu người được giới thiệu có thông tin cá nhân không chính xác, sau khi liên lạc, Vinaresearch sẽ xác nhận <b>“Không tốt”</b>, hệ thống sẽ không ghi nhận điểm của người giới thiệu.<br><br>
+										Trong trường hợp số lượng thành viên đăng ký mới quá đông, Vinaresearch sẽ không kịp kiểm tra chi tiết nên thời gian cộng điểm có thể kéo dài hơn, sau 10 ngày kể từ ngày người bạn được giới thiệu đăng ký. Bạn có thể tham khảo chi tiết hơn tại mục <b>"Giới thiệu bạn bè"</b> trên website <b>Vinaresearch.net</b>.
+									</dd>
+								<dt><span>Tôi không nhận được điểm từ khảo sát?</span></dt>
+									<dd style="display: none;"><b>1.	Khảo sát công khai</b>:  Điểm thưởng từ khảo sát công khai sẽ được cộng sau khi bạn hoàn tất khảo sát (thông thừơng), hoặc đuợc cộng trong vòng 10 ngày sau khi dự án kết thúc. Nếu không nhận được điểm thưởng trong khung thời gian quy định, vui lòng liên hệ với Vinaresearch qua số điện thoại <b>(08) 3848.3731</b>, hay để lại tin nhắn qua địa chỉ email <a href="mailto:support@vinaresearch.net">support@vinaresearch.net</a>.<br> <br><b>2.	Khảo sát riêng</b>:Khảo sát riêng thường được cộng điểm 10 ngày sau khi khảo sát chính thức kết thúc, dựa theo kết quả kiểm tra khảo sát. Lịch cộng điểm sẽ được cập nhật trong phần tin tức và bạn sẽ được gửi email thông báo khi cộng điểm. <br>Nếu không nhận được email thông báo, hay không nhận được điểm theo lịch, vui lòng liên hệ với Vinaresearch kèm theo rõ số hiệu và tên khảo sát tương ứng. <br><br><b>Lưu ý:</b> Với những trường hợp bạn bị dừng khảo sát khi chưa hoàn tất do câu trả lời không phù hợp với nhóm đối tượng mà khảo sát hướng đến, Ban quản trị sẽ không thể cập nhật bảng trả lời của bạn và không thể cộng điểm cho bạn.</dd>
+								<dt><span>Thời hạn hiệu lực của điểm thưởng?</span></dt>
+									<dd style="display: none;">Điểm thưởng tích lũy được qua các khảo sát không có giới hạn hiệu lực về thời gian. Tuy nhiên, đối với những thành viên không đăng nhập vào trang cá nhân và không trả lời ít nhất 1 khảo sát trong 1 năm, hệ thống sẽ tự động hủy bỏ điểm thưởng tích lũy của thành viên đó.</dd>
+								<dt><span>Các loại quà tặng có thể nhận từ đổi điểm?</span></dt>
+									<dd style="display: none;">Hiện tại, hình thức quà tặng chủ yếu dành cho các thành viên có số điểm lớn hơn 500 điểm là thẻ cào điện thoại hay đổi điểm qua Ngân lượng:<br> <br>
+										<b>1.Thẻ điện thoại các mệnh giá:</b> Thẻ cào 50.000 VND, 100.000 VND, 200.000 VND, 500.000 VND. <br>
+										<b>2.Chuyển tiền qua Ngân lượng:</b> Chi tiết tại <a href="/public/news/index/bonus">đây</a>.<br><br>
+										<b>Hình thức chuyển quà tặng:</b><br>
+										1.Với hình thức <b>“Thẻ cào điện thoại”</b>, mã thẻ cào sẽ được gửi qua email mà thành viên đăng ký. <br>
+										2.Với hình thức <b>“Ngân lượng”</b>, thành viên cần tạo  1 tài khoản trên trang <a target="_blank" href="https://www.nganluong.vn">www.nganluong.vn</a> trước khi chuyển điểm tại Vinaresearch. <br><br>
+										Các bạn cũng có thể gửi ý kiến đóng góp cho chúng tôi về các hình thức quà tặng khác tại mục Liên hệ.
+									</dd>
+							</dl>
+						</div>
+						<div class="tab-content" style="display: none;">
+							<dl class="faq-list">
+								<dt><span>Về  chức năng chặn pop-up của trình duyệt</span></dt>
+									<dd style="display: none;">Có trường hợp do thiết đặt chặn pop-up của trình duyệt làm bảng khảo sát không hiển thị bình thường. Nếu bạn gặp vấn đề này, xin vui lòng tham khảo thao tác thiết đặt chức năng chặn pop-up sau đây:<br><br> 
+									<b>(*) Lưu ý</b>:<br> 
+										1. Phía trên của trình duyệt, vào mục <b>“Menu”</b>, chọn <b>“Tools” - “Pop-up blocker”</b><br>
+										2. Chọn <b>“Pop-up blocker settings”</b><br>
+										3. Ở mục <b>“Notifications and blocking level”</b>, chọn <b>“Blocking level” - “Medium”</b>,chọn <b>“Close”</b><br><br>
+										※Yêu cầu trình duyệt Internet Explorer trở lên. Ngoài ra, về thiết đặt chức năng chặn pop-up của Search Toolbar (Google, Yahoo….), bạn vui lòng tham khảo cách thức từ phía các nhà cung cấp đó.
+									</dd>
+								<dt><span>Về hệ thống an ninh, bảo mật</span></dt>
+									<dd style="display: none;">Tại Vinaresearch, SSL (mật mã hóa hệ thống) được sử dụng. Bạn có thể yên tâm rằng thông tin  đăng nhập, thông tin đăng kí, thông tin cá nhân được truyền phát một cách an toàn tuyệt đối. 
+									Bạn có thể tìm hiểu thêm tại “<a href="/public/news/index/secure-policy"> Chính sách bảo mật</a>”
+									</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="banner-list">
+				<li class="list1"><a href="#"> <img src="./css/images/banner_01.gif"/></a></li>
+				<li class="list1"><a href="#"> <img src="./css/images/banner_02.gif"/></a></li>
+				<li><a href="#"> <img src="./css/images/banner_03.gif"/></a></li>
+			</ul>
+		</div>
+		
+		
+		
+		
+		<!--het content-->
+		<div class="footer">
+			<div class="">
+				<div class="footer-inner">
+					<div class="block-coloum">
+						<div class="coloum1">
+							<p class="f-title"><span>Vinaresearch.net</span></p>
+							<ul class="f-navi">
+								<li><a href="#">Trang chủ</a></li>
+								<li><a href="#">Giới thiệu</a></li>
+								<li><a href="#">Điểm thưởng/Quà tặng</a></li>
+								<li><a href="#">Báo cáo nghiên cứu</a></li>
+								<li><a href="#">Hỏi đáp</a></li>
+								<li><a href="#">Liên hệ</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Chính sách bảo mật</a></li>
+								<li><a href="#">Tuyển dụng</a></li>
+							</ul>
+						</div>
+						<div class="coloum2">
+							<p class="f-title"><span>Về chúng tôi</span></p>
+							<p><span>Công ty Cổ phần W&amp;S là doanh nghiệp 100% vốn Nhật Bản, tiên phong trong lĩnh vực Nghiên cứu thị trường trực tuyến tại Việt Nam. </span></p>
+							<ul class="f-contact">
+								<li><img src="./css/images/icon_20.gif"/><span>Lầu 7, Tòa nhà DC Tower, Số 111D, Đường Lý Chính Thắng, Phường 7, Quận 3, TP.HCM</span></li>
+								<li><img src="./css/images/icon_21.gif"/><span>(+84) 28 3848 3732</span></li>
+								<li><img src="./css/images/icon_22.gif"/><a href="#"><span>support@vinaresearch.net</span></a></li>
+							</ul>
+						</div>
+						<div class="coloum3">
+							<p class="f-title"><span>Theo dõi chúng tôi trên Facebook</span></p>
+						</div>
+					</div>
+					<div class="footer-botton">
+						<p class="coppy-right">Vinaresearch - Một sản phẩm của công ty nghiên cứu thị trường <a href="#"><span> W&S </span></a>. <br>
+						Copyright © 2018 <a href="#">W&S JSC</a>. All rights reserved.</p>
+						<p class="coppy-r">
+						<img src="./css/images/img_01.gif"/>
+						<img src="./css/images/img_02.gif"/>
+						</p>		
+					</div>
+						
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+</body>
+</html>

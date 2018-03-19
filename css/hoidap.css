@@ -1,0 +1,77 @@
+ body {margin:0px auto;}
+.wrapper {width:100%; margin:0px auto;}
+.header {background: #EFEFEF;margin:0px auto;}
+.header-fix { width:75%;margin: 0px auto; padding:20px;}
+.header-right { width:36%;float:right;}
+.header-list {list-style-type:none;}
+.header-a1 {text-decoration:none; float: left;color:#FFF;background:#0EA2D3;border-bottom:2px solid #587984; padding:5px 42px; margin-right:20px;}
+.header-a2 {text-decoration:none; float: left;color:#FFF;background:#F57B20;border-bottom:2px solid #CA8241;padding:5px 45px; }
+.menu {width:100%;margin: 0px auto;background:#77787B;padding-bottom: 0px;}
+.menu-box {width:75%;margin:0px auto;}
+.menu-list {list-style-type:none; margin:0px auto; padding:20px;  text-align:left; }
+.list-k {position:relative;float:left;}
+.list-k > .sub-menu{display:none; position:absolute;}
+.list-k:hover .sub-menu{display:block; }
+.sub-menu {list-style-type:none;background: #fff;display: none;position: absolute;left: 0px;top: 35px;width: 195px; padding-left: 0px}
+.sub-menu li {    float: none;}
+.menu-aa{text-decoration:none;    border-bottom: 1px solid #dfdfdf;color: #5d5d5d;display: block; padding: 13px 12px;}
+.menu-aa:hover {background:#EFEFEF;}
+.search-btn {float:right;margin-top: -20px;}
+.menu-a {text-decoration:none; float:left; color:#FFF;  display: block;position: relative; text-align:center;padding:0px 15px 15px 15px; margin-bottom: -15px; }
+.menu-a:hover {background:#77787B;color:#F57B20; border-bottom:2px solid #F57B20;}
+#search-box {width:75%;margin:0px auto; background:#77787B;padding-top: 20px;}
+#search-box ul {list-style-type:none;}
+.search-input {float:left; width:95%; margin-top: -20px;margin-left: -5px; }
+.txt-input {background: #efefef; border: 1px solid #d2d2d2;padding: 12px; margin-top: -10px; width: 90%;}
+.img-close {float:right; width:5%;    margin-top: -20px;margin-right: -35px;}
+
+/*********************************/
+.content { width:75%; margin:0px auto; padding: 20px 0px ;}
+.h2-title {font-size:20px;margin-bottom:20px;margin-top:0px;}
+.box-content {background:#EFEFEF;padding:20px;}
+.tab-list {background:#F57B20; padding:2px 0 0; list-style-type:none;margin-top: 0px; margin-bottom: 0px;}
+.selected {background:#F57B20; color:#FFF;}
+.tab-list li { color: #fff;font-weight: bold;cursor: pointer; float: left;text-align: center; padding: 10px 0px 14px; margin-right: 0px; width: 192px;}
+.tab-list li:hover {background:#FFF ; border-top:1px solid #F57B20; color:#F57B20;}
+.tab-content {margin-bottom: 20px;padding: 15px 20px;}
+.faq-list dt { background: #f57b20;color: #5c2c08;font-weight: bold; cursor: pointer; margin-bottom: 1px;padding: 9px 20px 12px;}
+.faq-list dt span { background: url(images/close_arrow.gif) no-repeat right center; padding: 0 20px 0 0; display: block;}
+.faq-list {margin-top: 0px;}
+.banner-list {list-style-type:none;}
+.banner-list li{float:left; margin-left:-40px;}
+.list1 {padding-right:125px;}
+
+/*********************************/
+.footer {width:100%; padding: 18px 0 50px;; background:#77787B;}
+.footer-inner {margin:0px auto;width:75%;}
+.block-coloum{height:326px; margin-bottom :20px; }
+.coloum1 {height:326px; float:left; border-right: 2px solid #696969;width:250px; margin-right:80px;}
+.f-title {margin-bottom: -15px;}
+.f-title span {border-bottom: 2px solid #dc7a32;color: #313131;display: inline-block;font-size: 16px !important;font-weight: bold;margin-bottom: 21px;padding: 0 10px 14px 0;}
+.f-navi{list-style-type:none;margin-left: -40px;}
+.f-navi li{padding-bottom: 10px;}
+.f-navi li a {text-decoration:none;color:#FFF;}
+.coloum2 {height:326px; float:left; border-right: 2px solid #696969; width:250px; color:#FFF;padding-right:70px;}
+.f-contact {list-style-type:none; }
+.f-contact li{margin-top:10px;line-height: 21px;text-indent: -30px;}
+.f-contact li a{color:#FFF; text-decoration:none;}
+.f-contact li a:hover{border-bottom:1px solid #FFF;}
+.coloum3 {float:right;height:326px;width:250px;}
+.footer-bottom {}
+.footer-bottom p{ display: inline-block;vertical-align: middle;}
+.coppy-right { font-size: 13px;line-height: 18px; padding-right: 19px;width: 445px;float:left; padding-top: 55px; color:#FFF;}
+.coppy-right a{text-decoration:none; color:#F17A28;}
+.coppy-right a:hover {border-bottom:1px solid #F17A28;}
+.coppy-r {margin-top:10px;}
+/*********************************/
+
+.banner-list:after,
+.tab-list:after,
+#search-box:after,
+.warpper:after,
+.header:after,
+.menu:after,
+.menu-box:after,
+.footer:after,
+
+.clearfix::after { content: "";clear: both; display: block;   height: 0; line-height: 0; visibility: hidden;}

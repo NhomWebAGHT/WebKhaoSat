@@ -10,3 +10,4 @@ function showMenu(){
 	document.getElementById("search-box").style.display="none";
 	document.getElementById("menu-box").style.display="block";
 }
+
