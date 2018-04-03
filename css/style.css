@@ -20,6 +20,7 @@
 .menu-aa:hover {background:#EFEFEF;}
 .search-btn {float:right;margin-top: -20px;}
 .menu-a {text-decoration:none; float:left; color:#FFF;  display: block;position: relative; text-align:center;padding:0px 15px 15px 15px; margin-bottom: -15px; }
+.active {background:#77787B;color:#F57B20; border-bottom:2px solid #F57B20;}
 .menu-a:hover {background:#77787B;color:#F57B20; border-bottom:2px solid #F57B20;}
 #search-box {width:75%;margin:0px auto; background:#77787B;padding-top: 20px;}
 #search-box ul {list-style-type:none;}
